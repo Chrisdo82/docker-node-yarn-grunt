@@ -27,3 +27,6 @@ Node docker image with yarn package manager ( http://yarnpkg.com ) and gulp ( ht
 -       [`8.0`, (*8.0/Dockerfile*)](https://github.com/Chrisdo82/docker-node-yarn-gulp/blob/master/8.0/Dockerfile)
 -       [`8.0-slim`, (*8.0/slim/Dockerfile*)](https://github.com/Chrisdo82/docker-node-yarn-gulp/blob/master/8.0/slim/Dockerfile)
 -       [`8.0-wheezy`, (*8.0/wheezy/Dockerfile*)](https://github.com/Chrisdo82/docker-node-yarn-gulp/blob/master/8.0/wheezy/Dockerfile)
+-       [`8.7`, (*8.7/Dockerfile*)](https://github.com/Chrisdo82/docker-node-yarn-gulp/blob/master/8.7/Dockerfile)
+-       [`8.7-slim`, (*8.7/slim/Dockerfile*)](https://github.com/Chrisdo82/docker-node-yarn-gulp/blob/master/8.7/slim/Dockerfile)
+-       [`8.7-wheezy`, (*8.7/wheezy/Dockerfile*)](https://github.com/Chrisdo82/docker-node-yarn-gulp/blob/master/8.7/wheezy/Dockerfile)
