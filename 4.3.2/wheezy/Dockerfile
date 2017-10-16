@@ -1,9 +1,8 @@
-FROM node:4.3.2-wheezy
+FROM kkarczmarczyk/node-yarn:4.3.2-wheezy
 
-MAINTAINER Kamil Karczmarczyk <kkarczmarczyk@gmail.com>
+MAINTAINER Christian Dornbusch <christian.dornbusch@useeds.de>
 
-# Global install yarn package manager
-RUN npm set progress=false && \
-    npm install -g --progress=false yarn
+# Global install gulp
+RUN npm install --global gulp-cli
 
 WORKDIR /workspace

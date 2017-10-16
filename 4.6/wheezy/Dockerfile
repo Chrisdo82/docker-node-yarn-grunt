@@ -1,11 +1,8 @@
-FROM node:4.6-wheezy
+FROM kkarczmarczyk/node-yarn:4.6-wheezy
 
-MAINTAINER Kamil Karczmarczyk <kkarczmarczyk@gmail.com>
+MAINTAINER Christian Dornbusch <christian.dornbusch@useeds.de>
 
-# Global install yarn package manager
-RUN apt-get update && apt-get install -y curl apt-transport-https && \
-    curl -sS https://dl.yarnpkg.com/debian/pubkey.gpg | apt-key add - && \
-    echo "deb https://dl.yarnpkg.com/debian/ stable main" | tee /etc/apt/sources.list.d/yarn.list && \
-    apt-get update && apt-get install -y yarn
+# Global install gulp
+RUN npm install --global gulp-cli
 
 WORKDIR /workspace
