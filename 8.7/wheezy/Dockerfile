@@ -9,6 +9,7 @@ RUN apt-get update && apt-get install -y curl apt-transport-https && \
     apt-get update && apt-get install -y yarn && \
     npm install --global grunt-cli && \
     apt-get install -y ruby && \
+    apt-get build-dep -y --force-yes ruby-compass && \
     gem install compass
 
 WORKDIR /workspace
