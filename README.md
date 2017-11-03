@@ -5,7 +5,6 @@ Node docker image with yarn package manager ( http://yarnpkg.com ) and grunt ( h
 
 ## Supported tags and respective `Dockerfile` links
 
--       [`4.3.2`, (*4.3.2/Dockerfile*)](https://github.com/Chrisdo82/docker-node-yarn-grunt/blob/master/4.3.2/Dockerfile) (Version used by AWS Lambda)
 -       [`4.6`, (*4.6/Dockerfile*)](https://github.com/Chrisdo82/docker-node-yarn-grunt/blob/master/4.6/Dockerfile)
 -       [`6.9`, (*6.9/Dockerfile*)](https://github.com/Chrisdo82/docker-node-yarn-grunt/blob/master/6.9/Dockerfile)
 -       [`7.4`, (*7.4/Dockerfile*)](https://github.com/Chrisdo82/docker-node-yarn-grunt/blob/master/7.4/Dockerfile)
